@@ -1,0 +1,36 @@
+body {
+    text-align: left;
+    overflow: auto;
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color: white;
+}
+
+h3 {
+    font-family: Palatino, 'Palatino', serif;
+    font-size: 32px;
+    color: red;
+
+}
+
+.container-fluid h3{
+    text-align: left;
+}
+
+.tasklist label{
+    font-size:17px;
+    width: 70%;
+    overflow: auto;
+}
+
+.tasklist input{
+    margin-right: 10px;
+}
+/*http://stackoverflow.com/questions/13631537/create-css-to-enlarge-checkboxes
+*/
+input[type="checkbox"] {
+  transform:scale(2, 2);
+}

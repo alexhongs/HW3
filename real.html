@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--Template from Bootstrap-->
+<html lang="en">
+<head>
+  <title>CMU Group Study</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- MY STYLE SHEET -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- MY STYLE SHEET -->
+  <script src="js/myscript.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class = "container-fluid">
+    <div class = "navbar-header">
+      <a class = "navbar-brand">CMU Group Study</a>  
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <h3>Tasks</h3>
+  <ul class = "tasklist"> 
+  </ul>
+  <form>
+    <div class="form-group">
+      <label for="taskinput">Add a task:</label>
+      <div>
+        <input type="text" class="form-control" id = "taskinput" 
+        placeholder="Enter Task"><br>
+      </div>
+      <label for="taskdescript"> Description: </label>
+      <textarea class= "form-control" id="taskdescript" placeholder = "Add Description"></textarea>
+    </div>
+    <button href = "#" type="button" class="btn btn-primary"
+    onclick = "createTask()"> Add Task </button>
+  </form>
+
+</div>
+</body>
+</html>
