@@ -1,0 +1,12 @@
+Write up
+Challenges:
+One of the major challenges in doing this assignment was to figure out the syntax of the html/css/JS. Because I have never used these languages before, learning the language and then figuring out different functionalities were difficult. Templates and documentations and sample codes getboostrap.com, w3schools.com, and api.jquery.com helped a lot in figuring out the functionalities. For example, I was confused between JS language and a jQuery notation, but from much trial and error through the Google development tool console, I figured out. Specifically, in class we learned the JS functions like document.createElement() and then adding that to a parent node. It was different with jQuery where we can simply use $(id or name) functions. It seemed like jQuery and JS had some pros and cons personally. jQuery was more free in syntax, but it was confusing as to what the functions I was calling was doing. But then it was convenient, because a line like: $(name).append("<p> me </p>") was very simple and easy to write. 
+
+Bug:
+A major but I encountered was getting error in line 1 of my html file. It was a token error. It turned out that I had a syntax error in my java script file. This was very confusing, because the error was shown on the html file, not the JS file. People online seemed to encounter the same problem, but it seems that the only way to debug that is to check for syntax errors. 
+
+Through a lot of searching and learning from examples on-line, I got through the bugs and challenges.
+
+Extra Features:
+After clicking on to the add task button a pop-up shows up, either to indicate the task is successfully added, or no task is written.
+

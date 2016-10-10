@@ -26,22 +26,25 @@
 
 <div class="container-fluid">
   <h3>Tasks</h3>
-  <ul class = "tasklist"> 
-  </ul>
+  <ul class = "tasklist"> </ul>
   <form>
     <div class="form-group">
       <label for="taskinput">Add a task:</label>
+
       <div>
         <input type="text" class="form-control" id = "taskinput" 
         placeholder="Enter Task"><br>
       </div>
+
       <label for="taskdescript"> Description: </label>
-      <textarea class= "form-control" id="taskdescript" placeholder = "Add Description"></textarea>
+      <textarea class= "form-control" id="taskdescript" placeholder = "Add Description">
+      </textarea>
     </div>
-    <button href = "#" type="button" class="btn btn-primary"
+
+    <button id = "addtaskButton" type="button" class="btn btn-primary"
     onclick = "createTask()"> Add Task </button>
   </form>
-
 </div>
+
 </body>
 </html>
